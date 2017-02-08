@@ -77,13 +77,13 @@ $('.title').fontSizeAdapter({
     <td>enlarge</td>
     <td>boolean</td>
     <td>true</td>
-    <td>Enables font-size to be increased from it's original size. Use `false` to make elements only to shrink.</td>
+    <td>Enables font-size to be increased from it's original size. Use <code>false</code> to make elements only to shrink.</td>
   </tr>
   <tr>
     <td>onResize</td>
     <td>boolean</td>
     <td>true</td>
-    <td>Enables automatic recalculation on `$(window).resize()`.</td>
+    <td>Enables automatic recalculation on <code>$(window).resize()</code>.</td>
   </tr>
 </tbody>
 </table>
@@ -91,9 +91,7 @@ $('.title').fontSizeAdapter({
 
 ## Examples
 
-`example.html` contains basic examples.
-
-**TODO**: Codepen demo
+[Codepen demo](https://codepen.io/matijamrkaic/pen/pROqgx/)
 
 ## License
 
