@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<title>font-size Adapter</title>
+
+	<style type="text/css">
+		html { min-height: 100%; background: #008b8b; font-family: Helvetica, sans-serif; text-align: center; color: #333; }
+		.example { margin: 80px auto; width: 90%; max-width: 1200px; white-space: nowrap; }
+		.item { display: inline-block; width: 30%; height: 80px; line-height: 80px; padding: 0px 1%; margin: 0 0.5%; border: 1px solid rgba(255, 255, 255, 0.4); background: rgba(255, 255, 255, 0.2); }
+		h2 {color: #e5f3f3; margin: 2em 0 1em;}
+		h3 { display: inline-block; font-size: 50px; margin: 0; vertical-align: middle; line-height: 1.3;}
+		.example-3 .item { width: 48%; }
+		.example-4 .item { white-space: normal; height: 120px; line-height: 120px; }
+		.example-smooth h3 { opacity: 0; transition: opacity 0.5s ease-in-out; }
+		.example-smooth h3.font-size-adapted { opacity: 1; }
+	</style>
+
+</head>
+
+<body>
+
+	<div class="example example-1">
+		<h2>Example 1: Basic</h2>
+		<div class="item"> <h3>Single Title</h3> </div>
+	</div>
+
+	<div class="example example-2">
+		<h2>Example 2: Multiple items synced</h2>
+		<div class="item"> <h3>Multiple</h3> </div>
+		<div class="item"> <h3>Titles</h3> </div>
+		<div class="item"> <h3>Synchronized to adapt</h3> </div>
+	</div>
+
+	<div class="example example-3 example-smooth">
+		<h2>Example 3: Smooth appearance</h2>
+		<div class="item"> <h3>'finished' class used for elements</h3> </div>
+		<div class="item"> <h3>to appear when adapted</h3> </div>
+	</div>
+
+	<div class="example example-4">
+		<h2>Example 4: Wrapped text</h2>
+		<div class="item"> <h3>
+			German-word Backpfeifengesicht
+		</h3> </div>
+	</div>
+
+
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+ 	<script src="jquery.fontSizeAdapter.js"></script>
+
+	<script>
+		$('.example').each(function(){
+			$('h3', this).fontSizeAdapter();
+		});
+	</script>
+
+</body>
+</html>
