@@ -1,6 +1,9 @@
 # font-size-adapter - jQuery plugin
 [font-size-adapter](https://github.com/matijamrkaic/font-size-adapter) resizes text to fit in the available space and **synchronizes the font-sizes** of all elements within the selection.
 
+<img src="https://raw.githubusercontent.com/matijamrkaic/font-size-adapter/master/example.gif" width="100%" />
+
+[Codepen demo](https://codepen.io/matijamrkaic/pen/pROqgx/)
 
 
 ## Basic usage
@@ -88,10 +91,6 @@ $('.title').fontSizeAdapter({
 </tbody>
 </table>
 
-
-## Examples
-
-[Codepen demo](https://codepen.io/matijamrkaic/pen/pROqgx/)
 
 ## License
 
