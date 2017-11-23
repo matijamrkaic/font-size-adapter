@@ -54,43 +54,12 @@ $('.title').fontSizeAdapter({
 
 ## Settings
 
-<table>
-<thead>
-  <tr>
-    <th>Option</th>
-    <th>Type</th>
-    <th>Default</th>
-    <th>Description</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td>fontMax</td>
-    <td>integer</td>
-    <td>0</td>
-    <td>Sets maximum font-size limit.</td>
-  </tr>
-  <tr>
-    <td>fontMin</td>
-    <td>integer</td>
-    <td>0</td>
-    <td>Sets minimum font-size limit.</td>
-  </tr>
-  <tr>
-    <td>enlarge</td>
-    <td>boolean</td>
-    <td>true</td>
-    <td>Enables font-size to be increased from it's original size. Use <code>false</code> to make elements only to shrink.</td>
-  </tr>
-  <tr>
-    <td>onResize</td>
-    <td>boolean</td>
-    <td>true</td>
-    <td>Enables automatic recalculation on <code>$(window).resize()</code>.</td>
-  </tr>
-</tbody>
-</table>
-
+Option | Type | Default | Description
+--- | --- | --- | ---
+fontMax | integer | 0 | Sets maximum font-size limit.
+fontMin | integer | 0 | Sets minimum font-size limit.
+enlarge | boolean | true | Enables font-size to be increased from it's original size. Use `false` to make elements only to shrink.
+onResize | boolean | true | Enables automatic recalculation on `$(window).resize()`.
 
 ## License
 
